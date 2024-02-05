@@ -20,9 +20,7 @@ function App() {
         <li className="nav-item px-3">
           <Link className="nav-link text-white"to="/">Home</Link>
         </li>
-        <li className="nav-item px-3">
-          <Link className="nav-link text-white" to="/Transaction">Transaction</Link>
-        </li>
+       
         <li className="nav-item px-3">
         <Link className="nav-link text-white"to="/Services">Services</Link>
         </li> 

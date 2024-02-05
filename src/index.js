@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import './index.css';
 import App from './App';
 import App1 from './App1';
-import Transaction from './Transaction';
+
 import Services from './Services';
 import Contact from './Contact';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -16,7 +16,7 @@ export default function Apps() {
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<App1 />} />
-          <Route path="Transaction" element={<Transaction />} />
+          
           <Route path="Services" element={<Services />} />
            <Route path="Contact" element={<Contact />} />
           {/* <Route path="*" element={<NoPage />} />  */}
